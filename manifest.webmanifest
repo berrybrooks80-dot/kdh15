@@ -1,0 +1,54 @@
+{
+  "name": "KO DOHYUN · Player File",
+  "short_name": "KO 15",
+  "description": "Scouting dossier and film archive — right defense, born 2013.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07090c",
+  "theme_color": "#07090c",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/godohyun/",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "dir": "ltr",
+  "categories": [
+    "sports",
+    "reference"
+  ],
+  "shortcuts": [
+    {
+      "name": "Film archive",
+      "url": "./index.html#film",
+      "description": "All recorded games and goal clips"
+    },
+    {
+      "name": "Season record",
+      "url": "./index.html#record",
+      "description": "KIHA statistics by season"
+    }
+  ]
+}
